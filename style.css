@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(58, 68, 71);
+    color: white;
+    font-family: verdana;
+    font-size: 30px;
+    margin-top: 50;
+    padding: 50;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333333;
+    position: fixed; 
+    font-size: 35px;
+    width: 100%;
+  }
+
+
+  .left-box {
+    display: flex;
+  }
+  
+  .left-box a {
+    margin-right: 80px;
+    text-decoration: none;
+    color: white; 
+  }
+  
+  .right-box {
+    order: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    justify-content: right;
+    margin-right: 20px;
+  }
+
+a{
+  color: black;
+}
+
+a:hover{
+    color: orange;
+}
+
+
+
+
+link{
+    float: left;
+    background-color: #111;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+.self{
+    float: right;
+    display: block;
+  }
+  
+  .Portfolio-button{
+  background-color: #333;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  width: 200px;
+  border-radius: 45px;
+  cursor: pointer;
+}
+
+.Portfolio-button:hover{
+  opacity: 0.8;
+}
+.Portfolio-button:active{
+  opacity: 0.5;
+}
+
+a{
+  text-decoration: none;
+}
+
+.Details{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  color: black;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.Socials{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  color: black;
+  vertical-align: middle;
+  align-items: center;
+}
